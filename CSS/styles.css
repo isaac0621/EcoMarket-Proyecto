@@ -1,0 +1,15 @@
+    /* Estilo creativo y limpio */
+    :root{--accent:#2b8a3e;--muted:#6c757d}
+    body{font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background: linear-gradient(180deg,#f6fff9 0%, #fff 60%);}
+    .navbar{backdrop-filter: blur(6px);}
+    .hero{background: linear-gradient(90deg, rgba(43,138,62,0.08), rgba(43,138,62,0.02)); border-radius: 14px; padding: 3rem;}
+    .badge-eco{background: rgba(43,138,62,0.12); color: var(--accent); border-radius: 8px; padding: .35rem .6rem; font-weight:600}
+    .product-card{border:0; transition: transform .18s ease, box-shadow .18s ease}
+    .product-card:hover{transform: translateY(-6px); box-shadow: 0 10px 30px rgba(12,33,18,0.08)}
+    .price{font-weight:700; color:var(--accent)}
+    .chip{background:#eef7ee; color:var(--accent); padding:.25rem .5rem; border-radius:999px; font-size:.85rem}
+    .footer{background:#0b2a16;color:#dff7e6;padding:2rem 0}
+    /* Responsive gallery */
+    @media (max-width:576px){ .hero{padding:1.5rem} }
+    /* Contact form tweaks */
+    .form-card{box-shadow:0 6px 20px rgba(8,30,12,0.06); border-radius:12px; padding:1.25rem}
